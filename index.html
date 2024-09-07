@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Uma aventura na natureza ou explorar um mistério artístico</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="imagem de uma praça ensolarada">
+            <p>É um sábado ensolarado, e você está pensando em como aproveitar o dia. Você tem duas opções interessantes: fazer uma trilha nas montanhas ou visitar uma feira de arte na cidade. Qual você vai escolher?</p>
+            <button class="btn-proximo" data-proximo="1">Fazer a trilha</button>
+            <button class="btn-proximo" data-proximo="2">Visitar a feira de arte</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>Você decide ir para as montanhas. O ar fresco e o som dos pássaros são revigorantes. Durante a trilha, você encontra uma cachoeira escondida. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Explorar a cachoeira mais de perto</button>
+            <button class="btn-proximo" data-proximo="4">Continuar a trilha e alcançar o topo da montanha</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <p>Na feira de arte, você se encanta com as pinturas e esculturas. De repente, uma das obras chama sua atenção – é uma pintura misteriosa de um lugar que parece familiar. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="5">Perguntar ao artista sobre a pintura</button>
+            <button class="btn-proximo" data-proximo="6">Comprar a pintura e investigar por conta própria</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <p>Você chega perto da cachoeira e sente a força da água caindo. Ao observar de perto, encontra uma pequena caverna atrás da queda d'água. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="7">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="8">Ficar fora e apenas aproveitar o momento</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <p>Você continua a trilha, e ao alcançar o topo da montanha, é recompensado com uma vista deslumbrante da cidade e do oceano. É um momento de paz e conquista pessoal. Você se sente renovado!</p>
+            <button class="btn-proximo" data-proximo="9">Descer a montanha com calma</button>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <p>O artista revela que a pintura é de um local mágico que ele visitou há anos, mas agora é difícil de encontrar. Ele dá uma dica de como você pode tentar chegar lá. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="10">Seguir a dica do artista e procurar o local</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <p>Você compra a pintura e, ao investigar, percebe que o lugar retratado é próximo da sua cidade. Agora você tem uma missão: encontrar esse lugar misterioso.</p>
+            <button class="btn-proximo" data-proximo="10">Procurar o local da pintura</button>
+        </div>
+        
+        <div class="passo" id="passo-7">
+            <p>Dentro da caverna, você encontra símbolos antigos esculpidos nas paredes. Algo místico parece envolver o lugar, e você sente que encontrou algo especial, talvez um segredo da natureza.</p>
+            <button class="btn-proximo" data-proximo="9">Sair da caverna e retornar pela trilha</button>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <p>Você decide ficar do lado de fora e apenas aproveitar o som relaxante da água. Às vezes, o melhor da aventura é a calma de simplesmente estar presente no momento.</p>
+            <button class="btn-proximo" data-proximo="9">Retornar pela trilha</button>
+        </div>
+        
+        <div class="passo" id="passo-9">
+            <p>Você desce a montanha sentindo-se renovado e em paz com a natureza. Foi um dia bem aproveitado!</p>
+        </div>
+        
+        <div class="passo" id="passo-10">
+            <p>Você decide seguir a dica e encontra o local misterioso. É um recanto escondido da natureza, com uma energia tranquila e quase mágica. Você se sente privilegiado por ter encontrado esse lugar especial.</p>
+        </div>        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
